@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-cloud-11-config-server-5001" />
         <module name="microservice-cloud-05-eureka-6002" />
         <module name="microservice-cloud-05-eureka-6001" />
-        <module name="microservice-cloud-02-api" />
+        <module name="mircrosevice-cloud-12-client-8080" />
+        <module name="microservice-cloud-09-hystrix-dashboard-9001" />
+        <module name="microservice-cloud-10-zuulgateway-7001" />
         <module name="microservice-cloud-04-consumer-product-80" />
+        <module name="microservice-cloud-03-provider-product-8002" />
         <module name="microservice-cloud-08-provider-product-hystrix-8001" />
         <module name="microservice-cloud-07-consumer-product-feign" />
-        <module name="microservice-cloud-03-provider-product-8002" />
+        <module name="microservice-cloud-02-api" />
         <module name="microservice-cloud-03-provider-product-8001" />
       </profile>
     </annotationProcessing>
@@ -26,6 +30,10 @@
       <module name="microservice-cloud-05-eureka-6002" target="12" />
       <module name="microservice-cloud-07-consumer-product-feign" target="12" />
       <module name="microservice-cloud-08-provider-product-hystrix-8001" target="12" />
+      <module name="microservice-cloud-09-hystrix-dashboard-9001" target="12" />
+      <module name="microservice-cloud-10-zuulgateway-7001" target="12" />
+      <module name="microservice-cloud-11-config-server-5001" target="12" />
+      <module name="mircrosevice-cloud-12-client-8080" target="12" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +46,10 @@
       <module name="microservice-cloud-05-eureka-6002" options="-parameters" />
       <module name="microservice-cloud-07-consumer-product-feign" options="-parameters" />
       <module name="microservice-cloud-08-provider-product-hystrix-8001" options="-parameters" />
+      <module name="microservice-cloud-09-hystrix-dashboard-9001" options="-parameters" />
+      <module name="microservice-cloud-10-zuulgateway-7001" options="-parameters" />
+      <module name="microservice-cloud-11-config-server-5001" options="-parameters" />
+      <module name="mircrosevice-cloud-12-client-8080" options="-parameters" />
     </option>
   </component>
 </project>

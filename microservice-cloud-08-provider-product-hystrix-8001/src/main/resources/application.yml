@@ -31,3 +31,10 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${server.port}-hystrix
     prefer-ip-address: true #访问路径就会显示为ip地址
+
+#在被监控服务上添加暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

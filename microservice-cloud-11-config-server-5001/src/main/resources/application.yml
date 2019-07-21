@@ -1,0 +1,10 @@
+server:
+  port: 5001
+spring:
+  application:
+    name: microservice-config
+  cloud:
+    config:
+      server:
+        git:  #远程的git地址
+          uri: https://github.com/Sakuracmm/microservice-cloud-config.git

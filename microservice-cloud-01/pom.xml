@@ -16,6 +16,10 @@
         <module>../microservice-cloud-03-provider-product-8002</module>
         <module>../spring-cloud-07-consumer-product-feign</module>
         <module>../microservice-cloud-08-provider-product-hystrix-8001</module>
+        <module>../microservice-cloud-09-hystrix-dashboard-9001</module>
+        <module>../microservice-cloud-10-zuulgateway-7001</module>
+        <module>../microservice-cloud-11-config-server-5001</module>
+        <module>../mircrosevice-cloud-12-client-8080</module>
     </modules>
     <packaging>pom</packaging>
 

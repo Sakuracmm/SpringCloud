@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: application #github上的配置名称，注意没有yml后缀
+      profile: dev #本次访问的环境配置项
+      label: master #进程库的分支名
+      uri: http://localhost:5001  #Config配置中心地址，通过他获取application.yml中的配置信息
